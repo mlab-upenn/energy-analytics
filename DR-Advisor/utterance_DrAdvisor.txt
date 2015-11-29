@@ -1,0 +1,48 @@
+ConditionIntent under what conditions does {building} consume {compare} than {value} killo watt
+ConditionIntent under what conditions does {building} consume {compare} than {value} kilowatts
+ConditionIntent when does {building} consume {compare} than {value} killo watt
+ConditionIntent when does {building} consume {compare} than {value} kilowatts
+ConditionIntent when is it that {building} consumes {compare} than {value} killo watt
+ConditionIntent when is it that {building} consumes {compare} than {value} kilowatts
+ConditionIntent what are the conditions when {building} consumes {compare} than {value} killo watt
+ConditionIntent what are the conditions when {building} consumes {compare} than {value} kilowatts
+
+SpecificCondIntent tell me specifically about {condition}
+SpecificCondIntent tell me about {condition} conditions
+SpecificCondIntent tell me about {condition} condition
+SpecificCondIntent tell me about {condition} the conditions
+
+HelpIntent what can you tell me
+HelpIntent what all you can tell me
+HelpIntent what kind of answers can i expect from you
+HelpIntent what kind of responses can i expect from you
+HelpIntent what are various options which I can know about
+HelpIntent what are various options which I can know about from you
+HelpIntent what are different options which I can know about
+HelpIntent what are different options which I can know about from you
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what questions can I ask
+HelpIntent what can I do
+HelpIntent what can you do
+HelpIntent how can I use you
+HelpIntent what can query you about
+HelpIntent what are different kinds of queries asked
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what can I use this for
+HelpIntent can you provide me with some help
+
+FinishIntent exit
+FinishIntent quit
+FinishIntent bye
+FinishIntent good bye
+FinishIntent stop
+FinishIntent cancel
+FinishIntent enough
+FinishIntent please stop
+FinishIntent enough
+FinishIntent leave

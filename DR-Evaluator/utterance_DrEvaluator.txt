@@ -1,0 +1,101 @@
+ChoiceIntent select option {optionNumber}
+ChoiceIntent select option number {optionNumber}
+ChoiceIntent choose option {optionNumber}
+ChoiceIntent choose option number {optionNumber}
+
+OpenEndedQueryIntent which is the best strategy to go with
+
+RepeatIntent repeat the options
+RepeatIntent repeat options
+RepeatIntent can you repeat the options
+RepeatIntent tell me the options
+RepeatIntent state the options
+RepeatIntent state the options again
+RepeatIntent tell me the options again
+
+WeatherIntent tell me the weather
+
+CustomOptionIntent {setpointType} is {setPointValue} percent
+CustomOptionIntent {setpointType} is {setPointValue} percentage
+CustomOptionIntent set the {setpointType} set point at {setPointValue} percent
+CustomOptionIntent set {setpointType} set point at {setPointValue} percent
+CustomOptionIntent set the {setpointType} set point to {setPointValue} percent
+CustomOptionIntent set {setpointType} set point to {setPointValue} percent
+CustomOptionIntent set the {setpointType} set point at {setPointValue} percentage
+CustomOptionIntent set {setpointType} set point at {setPointValue} percentage
+CustomOptionIntent set the {setpointType} set point to {setPointValue} percentage
+CustomOptionIntent set {setpointType} set point to {setPointValue} percentage
+CustomOptionIntent set the {setpointType} at {setPointValue} percent
+CustomOptionIntent set {setpointType} at {setPointValue} percent
+CustomOptionIntent set the {setpointType} to {setPointValue} percent
+CustomOptionIntent set {setpointType} to {setPointValue} percent
+CustomOptionIntent set the {setpointType} at {setPointValue} percentage
+CustomOptionIntent set {setpointType} at {setPointValue} percentage
+CustomOptionIntent set the {setpointType} to {setPointValue} percentage
+CustomOptionIntent set {setpointType} to {setPointValue} percentage
+
+CustomOptionIntent set the {setpointType} set point to {setPointValue} degree celsius
+CustomOptionIntent set {setpointType} set point to {setPointValue} degree celsius
+CustomOptionIntent set the {setpointType} set point at {setPointValue} degree celsius
+CustomOptionIntent set {setpointType} set point at {setPointValue} degree celsius
+CustomOptionIntent {setpointType} is {setPointValue} degrees celsius
+CustomOptionIntent {setpointType} is {setPointValue} degree celsius
+CustomOptionIntent {setpointType} is {setPointValue} degrees
+CustomOptionIntent set the {setpointType} set point to {setPointValue} degrees
+CustomOptionIntent set {setpointType} set point to {setPointValue} degrees
+CustomOptionIntent set the {setpointType} set point at {setPointValue} degrees
+CustomOptionIntent set {setpointType} set point at {setPointValue} degrees
+
+CustomOptionIntent set the {setpointType} to {setPointValue} degree celsius
+CustomOptionIntent set {setpointType} to {setPointValue} degree celsius
+CustomOptionIntent set the {setpointType} at {setPointValue} degree celsius
+CustomOptionIntent set {setpointType} at {setPointValue} degree celsius
+CustomOptionIntent set the {setpointType} to {setPointValue} degrees
+CustomOptionIntent set {setpointType} to {setPointValue} degrees
+CustomOptionIntent set the {setpointType} at {setPointValue} degrees
+CustomOptionIntent set {setpointType} at {setPointValue} degrees
+
+ChangeSetpointIntent I want to change {setpointType} to {setPointValue} percentage
+ChangeSetpointIntent I want to change {setpointType} to {setPointValue} percent
+ChangeSetpointIntent I want to change {setpointType} to {setPointValue} degree celsius
+ChangeSetpointIntent I want to change {setpointType} to {setPointValue} degrees
+
+ChangeSetpointIntent change {setpointType} to {setPointValue} percentage
+ChangeSetpointIntent change {setpointType} to {setPointValue} percent
+ChangeSetpointIntent change {setpointType} to {setPointValue} degree celsius
+ChangeSetpointIntent change {setpointType} to {setPointValue} degrees
+
+HelpIntent what can you tell me
+HelpIntent what all you can tell me
+HelpIntent what kind of answers can i expect from you
+HelpIntent what kind of responses can i expect from you
+HelpIntent what are various options which I can know about
+HelpIntent what are various options which I can know about from you
+HelpIntent what are different options which I can know about
+HelpIntent what are different options which I can know about from you
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what questions can I ask
+HelpIntent what can I do
+HelpIntent what can you do
+HelpIntent how can I use you
+HelpIntent what can query you about
+HelpIntent what are different kinds of queries asked
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what can I use this for
+HelpIntent can you provide me with some help
+
+FinishIntent exit
+FinishIntent quit
+FinishIntent bye
+FinishIntent good bye
+FinishIntent stop
+FinishIntent cancel
+FinishIntent enough
+FinishIntent please stop
+FinishIntent enough
+FinishIntent leave

@@ -1,0 +1,41 @@
+mcc -C -o test -W WinMain:test -T link:exe -d E:\Upenn\Fall2015\ESE519\Project\test\for_testing -v E:\Upenn\Fall2015\ESE519\Project\test.m -a E:\Upenn\Fall2015\ESE519\Project\FUNtest_data.mat -a E:\Upenn\Fall2015\ESE519\Project\Tree.mat 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+[Warning: Adding path "E:\Upenn\Fall2015\ESE519\Project" to Compiler path
+instance.] 
+[] 
+Parsing file "E:\Upenn\Fall2015\ESE519\Project\test.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 21 temporary MEX authorization files.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec31254_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec21167_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec7634_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec11164_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec20100_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec6347_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec6675_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec22100_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec32759_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec19397_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec8807_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec29651_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec13642_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec28323_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec11403_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec19305_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec25017_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec4092_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec5069_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec30211_5868.auth'.
+Removing: 'C:\Users\dell\AppData\Local\Temp\mathworks_tmp_016ec10066_5868.auth'.
+Generating file "E:\Upenn\Fall2015\ESE519\Project\test\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015b\toolbox\compiler\Resources\default_icon.ico to E:\Upenn\Fall2015\ESE519\Project\test\for_testing\test.exe.
+Attempting to embed the CTF archive into the application E:\Upenn\Fall2015\ESE519\Project\test\for_testing\test.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at E:\Upenn\Fall2015\ESE519\Project\test\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 47 seconds.

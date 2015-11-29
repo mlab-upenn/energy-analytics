@@ -1,0 +1,22 @@
+evaluator select option one
+evaluator select option two
+evaluator select option three
+
+evaluator lighting is seventy percent
+evaluator zone air temperature is twenty seven degrees
+evaluator zone air temperature is twenty seven degree celsius
+evaluator cold water temperature is nine degree celsius
+evaluator cold water temperature is nine degrees
+
+evaluator I want to change lighting to ninety percentage
+
+
+evaluator get help
+
+evaluator tell me the weather
+
+evaluator start evaluator
+
+
+http://ec2-54-86-96-236.compute-1.amazonaws.com:9000/?evaluator~1~0.6~26~9~0.6~26~8~0.8~26~9
+http://ec2-54-86-96-236.compute-1.amazonaws.com:9000/?evaluator~2~0.6~27~9
