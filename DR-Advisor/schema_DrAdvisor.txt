@@ -1,0 +1,38 @@
+{
+  "intents": [
+	{
+      "intent": "ConditionIntent",
+      "slots": [
+		{
+          "name": "building",
+          "type": "Type_Building"
+        },
+		{
+          "name": "compare",
+          "type": "Type_Compare"
+        },
+		{
+          "name": "value",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "SpecificCondIntent",
+      "slots": [
+		{
+          "name": "condition",
+          "type": "Type_Condition"
+        }
+	  ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    },
+	{
+      "intent": "FinishIntent",
+      "slots": []
+    }
+  ]
+}

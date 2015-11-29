@@ -1,0 +1,63 @@
+{
+  "intents": [
+	{
+      "intent": "ChoiceIntent",
+      "slots": [
+		{
+          "name": "optionNumber",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "CustomOptionIntent",
+      "slots": [
+		{
+          "name": "setpointType",
+          "type": "Type_SetPoint"
+        },
+		{
+          "name": "setPointValue",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "ChangeSetpointIntent",
+      "slots": [
+		{
+          "name": "setpointType",
+          "type": "Type_SetPoint"
+        },
+		{
+          "name": "setPointValue",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "OpenEndedQueryIntent",
+      "slots": []
+    },
+	{
+      "intent": "WeatherIntent",
+      "slots": []
+    },
+	{
+      "intent": "RepeatIntent",
+      "slots": []
+    },
+    {
+      "intent": "CantUnderstandIntent",
+      "slots": []
+    },
+	{
+      "intent": "HelpIntent",
+      "slots": []
+    },
+	{
+      "intent": "FinishIntent",
+      "slots": []
+    }
+  ]
+}
