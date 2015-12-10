@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESE 519 Project</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="/">ESE 519</a>
+	    </div>
+	    <div>
+	      <ul class="nav navbar-nav">
+	        <li><a href="/">Home</a></li>
+	        <li class = "active"><a href="/dashboard">Dashboard</a></li> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	
+    <div class=""modal-body row">
+      <% if (results == null) { %>
+      <div style="width:600px;>
+    <a href="https://plot.ly/~ssamarth/89/" target="_blank" title="Trace 0 vs Trace 1" style="display: block; text-align: center;"><img src="https://plot.ly/~ssamarth/89.png" alt="Trace 0 vs Trace 1" style="max-width: 100%;width: 1121px;"  width="1121" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="ssamarth:89"  src="https://plot.ly/embed.js" async></script>
+      </div>
+      <% }
+       else if (results.id_url == '172') { %>
+      <script>console.log("Hello")</script>
+      <div style="width:600px";>
+	    <table style="width:200%">
+        <tr>
+         <th>Graph Plots</th>
+         <th colspan="2">Recommended Sample Utterances</th>
+        </tr> 
+         <td><a href="https://plot.ly/~ssamarth/172/" target="_blank" title="Strategy 1, Strategy 2, Strategy 3, Baseline" style="display: block; text-align: center;"><img src="https://plot.ly/~ssamarth/172.png" alt="Strategy 1, Strategy 2, Strategy 3, Baseline" style="max-width: 100%;width: 1121px;"  width="1121" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+        <script data-plotly="ssamarth:172"  src="https://plot.ly/embed.js" async></script></td>
+        <td><% for (var j=0; j<results.intent.length; j++) {%>
+         <p> <%= results.intent[j] %> </p>
+      <% } %> </td>
+	     </table>
+       </div> 	
+         <div style = "margin-top: 10px">
+		    <table style="width:96%">
+            <tr>
+            <th>Speech Window</th>
+            </tr>
+            <td><p> Alexa: <%= results.speech %> </p></td>
+			</table>
+         </div>
+      <% }	  
+      else { %>
+      <script>console.log("Hello")</script>
+      <div style="width:600px";>
+        <table style="width:200%">
+        <tr>
+         <th>Graph Plots</th>
+         <th colspan="2">Recommended Sample Utterances</th>
+        </tr>
+        <td> <a href="https://plot.ly/~ssamarth/186/" target="_blank" title="Strategy 1, Strategy 2, Strategy 3, Baseline" style="display: block; text-align: center;"><img src="https://plot.ly/~ssamarth/186.png" alt="Strategy 1, Strategy 2, Strategy 3, Baseline" style="max-width: 100%;width: 1121px;"  width="1121" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+        <script data-plotly="ssamarth:186"  src="https://plot.ly/embed.js" async></script> </td>
+        <td> <% for (var j=0; j<results.intent.length; j++) {%>
+          <p> <%= results.intent[j] %> </p> 
+       <% } %> </td>
+       </table>
+      </div>	
+         <div style= "margin-top: 5px">
+            <table style= width:100%>
+            <tr>
+            <th>Speech Window</th>
+            </tr>
+            <td> <p> Alexa: <%= results.speech %> </p> </td>
+            </table>
+         </div>		
+		<% }  %>
+    </div>
+  </body>
+</html>
