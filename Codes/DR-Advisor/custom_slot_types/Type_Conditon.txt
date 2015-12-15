@@ -1,0 +1,11 @@
+day of the month
+day of month
+time of the day
+time of day
+temperature
+solar index
+wind speed
+gusts
+humidity
+dew point
+all

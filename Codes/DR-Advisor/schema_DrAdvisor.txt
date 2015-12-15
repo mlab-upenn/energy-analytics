@@ -1,0 +1,64 @@
+{
+  "intents": [
+	{
+      "intent": "ConditionIntent",
+      "slots": [
+		{
+          "name": "building",
+          "type": "Building_Name"
+        },
+		{
+          "name": "compare",
+          "type": "Type_Compare"
+        },
+		{
+          "name": "value",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "CompareIntent",
+      "slots": [
+		{
+          "name": "buildingOne",
+          "type": "Building_Name"
+        },
+		{
+          "name": "buildingTwo",
+          "type": "Building_Name"
+        },
+		{
+          "name": "time",
+          "type": "AMAZON.NUMBER"
+        }
+	  ]
+    },
+	{
+      "intent": "HighestPowerConsumeBuildingIntent",
+      "slots": [
+		{
+          "name": "buildingType",
+          "type": "Type_Building"
+        }
+	  ]
+    },
+	{
+      "intent": "SpecificCondIntent",
+      "slots": [
+		{
+          "name": "condition",
+          "type": "Type_Condition"
+        }
+	  ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    },
+	{
+      "intent": "FinishIntent",
+      "slots": []
+    }
+  ]
+}
